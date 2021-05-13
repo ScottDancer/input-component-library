@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.input {
+    margin: .25rem;
+    /* background-color:#FBF4EC; */
+    border: 1px solid #aaa;
+    outline: none;
+    cursor: pointer;
+    padding: .5em;
+    border-radius: .2em; 
+    color: #948350;
+    font-size: inherit;
+}
+
+.input:hover, .input:focus {
+  background-color: #ADF8FB;
+  box-shadow: 0 0 5px 0 #0af;
+  color: #043780;
+  border-color: #0870FF;
+}
+
+.input.input-success {
+  border-color: #1EFA3F ;
+}
+
+.input.input-success:hover {
+  border-color: #0D6E1C;
+  background-color: #37FA54;
+  box-shadow: 0 0 7px 1px #1EFA3F;
+  color: #0D6E1C;
+}
