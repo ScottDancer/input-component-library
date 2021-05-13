@@ -25,9 +25,32 @@
   border-color: #1EFA3F ;
 }
 
-.input.input-success:hover {
+.input.input-success:hover, .input-success:focus {
   border-color: #0D6E1C;
   background-color: #37FA54;
   box-shadow: 0 0 7px 1px #1EFA3F;
   color: #0D6E1C;
+}
+
+.input.input-error {
+  border-color: #FA0014 ;
+}
+
+.input.input-error:hover, .input-error:focus {
+  border-color: #7A000A;
+  background-color: #FB4B5A;
+  box-shadow: 0 0 7px 1px #C70011;
+  color: #7A000A;
+}
+
+.input.input-large {
+  font-size: 1.25rem;
+}
+
+.input.input-small {
+  font-size: .75rem;
+}
+
+.input:disabled {
+  background-color:#eaeaea;
 }
